@@ -12,6 +12,7 @@ const createTuit = (req, res) => {
 const findTuits  = (req, res) => {
     res.json(tuits);
 }
+
 const updateTuit = (req, res) => {
     const tuitdId = req.params.tid;
     const updates = req.body;
